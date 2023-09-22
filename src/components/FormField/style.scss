@@ -1,0 +1,20 @@
+.form-field {
+  width: 100%;
+  padding: 16px 8px;
+  border-radius: 20px;
+  background: #f6f8f2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  input {
+    width: 100%;
+    border: unset;
+    background-color: transparent;
+    outline: unset;
+    &::placeholder {
+      opacity: 0.25;
+    }
+  }
+}

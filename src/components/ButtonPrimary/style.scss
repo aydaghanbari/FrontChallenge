@@ -1,0 +1,9 @@
+@import '../../styles/variables';
+.btn-primary {
+  background: map-get($colors, 'primary-color');
+  border-radius: 20px;
+  padding: 16px;
+  text-align: center;
+  color: #f9f2f2;
+  width: 100%;
+}

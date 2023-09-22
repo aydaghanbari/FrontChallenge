@@ -1,0 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'tahoma', sans-serif;
+  background-color: map-get($colors, 'bg-color');
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+button,
+span,
+input,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

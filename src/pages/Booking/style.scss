@@ -1,0 +1,14 @@
+.booking {
+  padding: 32px 16px;
+  .title {
+    color: #100101;
+    font-size: 15px;
+  }
+  .update-btn {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    width: 95%;
+    transform: translate(-50%);
+  }
+}

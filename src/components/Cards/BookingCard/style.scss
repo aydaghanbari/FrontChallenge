@@ -1,0 +1,29 @@
+.booking-card {
+  border-radius: 20px;
+  background: #fbfff1;
+  box-shadow: 3px 1px 7.5px 0px rgba(0, 0, 0, 0.16);
+  padding: 16px;
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .counters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #7210ff;
+    gap: 8px;
+    .counter {
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #7210ff;
+      color: #fff;
+      border-radius: 100%;
+    }
+  }
+}
